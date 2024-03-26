@@ -1,5 +1,3 @@
-import express from 'express';
-import { Request, Response } from 'express';
 
 const app = express();
 
@@ -11,4 +9,3 @@ app.get('/', (req: Request, res: Response) => {
 
 app.listen(port, () => {
     console.log(`Server is running and listening at http://localhost:${port}`);
-});
